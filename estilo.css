@@ -1,0 +1,164 @@
+.fondo
+{
+  position:fixed;
+  display: block;
+  height: 101%;
+  width: 100%;
+  right: 0%;
+  top: -1%;
+  z-index: -10;
+}
+
+.div
+{
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	border-radius: .25rem;
+	color: white;
+	opacity: 50%;
+	padding: 5%;
+	width: 11%;
+	height: 5%;
+	left: 40%;
+	top: 50%;
+	z-index: 10;
+
+	-webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.contenido
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	padding: 5%;
+	width: 11%;
+	height: 5%;
+	left: 40%;
+	top: 50%;
+	z-index: 10;
+}
+
+.boton
+{
+	position: relative;
+	font-style: oblique;
+	background-color: white;
+	text-decoration: none;
+	padding: 7px 18px;
+	border: 1px solid #29286D;
+	border-radius: .25rem;
+	color: #29286D;
+	transition: color .15s ease-in-out,
+	background-color .15s ease-in-out;
+	font-size: 25px;
+}
+			
+.boton:hover, .boton:active, .boton:focus
+ {
+	 color: white;
+	 background-color: #29286D;
+}
+
+.A
+{
+	position: absolute;
+	background-color: blue;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	padding: 5%;
+	width: 11%;
+	height: 5%;
+	left: 40%;
+	top: 50%;
+	border-radius: .25rem;
+	z-index: 10;
+	display: none;
+}
+
+.B
+{
+	position: absolute;
+	background-color: red;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	padding: 5%;
+	width: 11%;
+	height: 5%;
+	left: 40%;
+	top: 50%;
+	border-radius: .25rem;
+	z-index: 10;
+	display: none;
+}
+
+.C
+{
+	position: absolute;
+	background-color: orange;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	padding: 5%;
+	width: 11%;
+	height: 5%;
+	left: 40%;
+	top: 50%;
+	border-radius: .25rem;
+	z-index: 10;
+	display: none;
+}
+
+.divTitulo
+{
+	position: absolute;
+	background-color: black;
+	opacity: 50%;
+	height: 30%;
+    width: 51%;
+    top: 8%;
+    left: 23%;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.linea1
+{
+	position: absolute;
+	width: 10%;
+	top: 9%;
+	left: 63.5%;
+}
+
+.linea2
+{
+	position: absolute;
+	width: 10%;
+	top: 18.5%;
+	left: 23.5%;
+}
+
+.titulo
+{
+	position: absolute;
+	left: 19%;
+	width: 60%;
+	top: 15%;
+}
+
+.regresar
+{
+	position: absolute;
+	width: 19%;
+	top: -6.8%;
+	left: -3.15%;
+}
